@@ -5,7 +5,7 @@ var TARGET = process.env.npm_lifecycle_event
 process.env.BABEL_ENV = TARGET
 
 var APP_PATH = path.resolve(__dirname, 'src/index.ts')
-var BUILD_PATH = path.resolve(__dirname, 'lib')
+var BUILD_PATH = path.resolve(__dirname, 'dist')
 
 module.exports = {
   entry: APP_PATH,
